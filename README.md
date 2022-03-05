@@ -54,47 +54,15 @@ $ ~/zokrates export-verifier
 ```
 
 # Rinkeby Contract Addresses
-2_deploy_contracts.js
-=====================
-
    Deploying 'SquareVerifier'
    --------------------------
    > transaction hash:    0x735f2c532e6dff11e0ff00bb552bff46c6965c8bfef021573b4674e82f82e95a
-- Blocks: 0            Seconds: 0
-   > Blocks: 1            Seconds: 12
    > contract address:    0xAc479AB5D3f2335d7351124302f915f026d692de
-   > block number:        10275023
-   > block timestamp:     1646473476
-   > account:             0x1EAC401061445432635DB2Ff7dfCD6DAcFC2E63d
-   > balance:             18.656258974996699053
-   > gas used:            992671 (0xf259f)
-   > gas price:           10 gwei
-   > value sent:          0 ETH
-   > total cost:          0.00992671 ETH
-
 
    Deploying 'SolnSquareVerifier'
    ------------------------------
    > transaction hash:    0x9ef83620f6dc2862ce40a7634470d0a9d6f1ec3cec2b9afe4b1669661fd0f892
-- Blocks: 0            Seconds: 0
-   > Blocks: 0            Seconds: 12
    > contract address:    0xF8187895137a78DbB52F0C04133A0f876A458aD4
-   > block number:        10275024
-   > block timestamp:     1646473491
-   > account:             0x1EAC401061445432635DB2Ff7dfCD6DAcFC2E63d
-   > balance:             18.619932014996699053
-   > gas used:            3632696 (0x376e38)
-   > gas price:           10 gwei
-   > value sent:          0 ETH
-   > total cost:          0.03632696 ETH
-
-
-- Saving migration to chain.
-   > Saving migration to chain.
-   > Saving artifacts
-   -------------------------------------
-   > Total cost:          0.04625367 ETH
-
 
 # Contract Abi's
 Please see ```~/eth-contracts/build/contracts``` for all ABI's 
