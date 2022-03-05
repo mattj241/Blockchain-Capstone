@@ -128,6 +128,13 @@ Minted item. Transaction: 0xcebd0998c42a608e836d84df7477cca0468561d0fcddf27eefdd
 
 Minted item. Transaction: 0x39e00d09423edee5561aece2e3ec4ebb3e96dadbf9dbf820360a0e53e45a625c
 
+# Seller of 5 NFTs, from the original 10 mint stack:
+https://rinkeby.etherscan.io/address/0x1EAC401061445432635DB2Ff7dfCD6DAcFC2E63d#tokentxnsErc721
+(5 most recent ERC721  transactions)
+# Buyer of 5 NFTs:
+
+https://rinkeby.etherscan.io/address/0x0932eBDc592EAC3f436626e8C5E01bec660c50f4#tokentxnsErc721
+(only 5 ERC721 transactions)
 
 
 
