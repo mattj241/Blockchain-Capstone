@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.5.5+commit.47a71e8f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"eth-contracts/contracts/Oraclize.sol": "CBOR"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"eth-contracts/contracts/Oraclize.sol": {
+			"keccak256": "0xc38194ed2d1a36907876f5836db0fd286125a56df657a2a28a3a5967b7d2b2a0",
+			"urls": [
+				"bzzr://80c5d5ebe0b16d0230061758ed8ae5141e2f3dd14cbe7175b4722a702ea7fdd7"
+			]
+		}
+	},
+	"version": 1
+}

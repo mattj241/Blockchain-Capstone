@@ -1,0 +1,317 @@
+{
+	"compiler": {
+		"version": "0.5.5+commit.47a71e8f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_datasource",
+						"type": "string"
+					},
+					{
+						"name": "_gasLimit",
+						"type": "uint256"
+					}
+				],
+				"name": "getPrice",
+				"outputs": [
+					{
+						"name": "_dsprice",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_datasource",
+						"type": "string"
+					}
+				],
+				"name": "getPrice",
+				"outputs": [
+					{
+						"name": "_dsprice",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_proofType",
+						"type": "bytes1"
+					}
+				],
+				"name": "setProofType",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_timestamp",
+						"type": "uint256"
+					},
+					{
+						"name": "_datasource",
+						"type": "string"
+					},
+					{
+						"name": "_arg1",
+						"type": "string"
+					},
+					{
+						"name": "_arg2",
+						"type": "string"
+					}
+				],
+				"name": "query2",
+				"outputs": [
+					{
+						"name": "_id",
+						"type": "bytes32"
+					}
+				],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_timestamp",
+						"type": "uint256"
+					},
+					{
+						"name": "_datasource",
+						"type": "string"
+					},
+					{
+						"name": "_argN",
+						"type": "bytes"
+					}
+				],
+				"name": "queryN",
+				"outputs": [
+					{
+						"name": "_id",
+						"type": "bytes32"
+					}
+				],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_timestamp",
+						"type": "uint256"
+					},
+					{
+						"name": "_datasource",
+						"type": "string"
+					},
+					{
+						"name": "_arg1",
+						"type": "string"
+					},
+					{
+						"name": "_arg2",
+						"type": "string"
+					},
+					{
+						"name": "_gasLimit",
+						"type": "uint256"
+					}
+				],
+				"name": "query2_withGasLimit",
+				"outputs": [
+					{
+						"name": "_id",
+						"type": "bytes32"
+					}
+				],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "randomDS_getSessionPubKeyHash",
+				"outputs": [
+					{
+						"name": "_sessionKeyHash",
+						"type": "bytes32"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_timestamp",
+						"type": "uint256"
+					},
+					{
+						"name": "_datasource",
+						"type": "string"
+					},
+					{
+						"name": "_arg",
+						"type": "string"
+					}
+				],
+				"name": "query",
+				"outputs": [
+					{
+						"name": "_id",
+						"type": "bytes32"
+					}
+				],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "cbAddress",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_timestamp",
+						"type": "uint256"
+					},
+					{
+						"name": "_datasource",
+						"type": "string"
+					},
+					{
+						"name": "_arg",
+						"type": "string"
+					},
+					{
+						"name": "_gasLimit",
+						"type": "uint256"
+					}
+				],
+				"name": "query_withGasLimit",
+				"outputs": [
+					{
+						"name": "_id",
+						"type": "bytes32"
+					}
+				],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_timestamp",
+						"type": "uint256"
+					},
+					{
+						"name": "_datasource",
+						"type": "string"
+					},
+					{
+						"name": "_argN",
+						"type": "bytes"
+					},
+					{
+						"name": "_gasLimit",
+						"type": "uint256"
+					}
+				],
+				"name": "queryN_withGasLimit",
+				"outputs": [
+					{
+						"name": "_id",
+						"type": "bytes32"
+					}
+				],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_gasPrice",
+						"type": "uint256"
+					}
+				],
+				"name": "setCustomGasPrice",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"eth-contracts/contracts/Oraclize.sol": "OraclizeI"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"eth-contracts/contracts/Oraclize.sol": {
+			"keccak256": "0xc38194ed2d1a36907876f5836db0fd286125a56df657a2a28a3a5967b7d2b2a0",
+			"urls": [
+				"bzzr://80c5d5ebe0b16d0230061758ed8ae5141e2f3dd14cbe7175b4722a702ea7fdd7"
+			]
+		}
+	},
+	"version": 1
+}

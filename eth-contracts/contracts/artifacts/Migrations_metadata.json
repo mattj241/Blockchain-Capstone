@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.5.5+commit.47a71e8f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "new_address",
+						"type": "address"
+					}
+				],
+				"name": "upgrade",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "last_completed_migration",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "completed",
+						"type": "uint256"
+					}
+				],
+				"name": "setCompleted",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"eth-contracts/contracts/Migrations.sol": "Migrations"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"eth-contracts/contracts/Migrations.sol": {
+			"keccak256": "0x71ad34c8b9aae451dda1baa609366f57394c65aa1a0974ca23b0c08532f6fe85",
+			"urls": [
+				"bzzr://47ebdc3d324ee14541cd26d698821e52844512f99de4d02de99832aa074f52f9"
+			]
+		}
+	},
+	"version": 1
+}

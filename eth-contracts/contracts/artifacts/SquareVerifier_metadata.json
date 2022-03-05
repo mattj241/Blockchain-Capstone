@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.5.5+commit.47a71e8f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "a",
+						"type": "uint256[2]"
+					},
+					{
+						"name": "b",
+						"type": "uint256[2][2]"
+					},
+					{
+						"name": "c",
+						"type": "uint256[2]"
+					},
+					{
+						"name": "input",
+						"type": "uint256[2]"
+					}
+				],
+				"name": "verifyTx",
+				"outputs": [
+					{
+						"name": "r",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "s",
+						"type": "string"
+					}
+				],
+				"name": "Verified",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"eth-contracts/contracts/SquareVerifier.sol": "SquareVerifier"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"eth-contracts/contracts/SquareVerifier.sol": {
+			"keccak256": "0x805cf901e3dfee492894389355b771fba3a970bcb92eb0d69be7f66272b9d5e0",
+			"urls": [
+				"bzzr://7113bf0fbee9ad65882d009d0512cccabecff6c723b58d4d3b6ff23283bc27d0"
+			]
+		}
+	},
+	"version": 1
+}
